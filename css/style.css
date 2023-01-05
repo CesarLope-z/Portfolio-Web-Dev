@@ -382,3 +382,9 @@ a:hover{
 
     }
 }
+.iconoProyecto{
+    transition: transform 2s;
+}
+.iconoProyecto:hover{
+    transform: rotateY(720deg);
+}
