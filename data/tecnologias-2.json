@@ -1,0 +1,28 @@
+{
+    "web": [
+        {"id": 1, "nombre": "html", "img": "html-icon"},
+        {"id": 1, "nombre": "css", "img": "css-icon"},
+        {"id": 1, "nombre": "javascript", "img": "javascript-icon"}
+    ],
+    "frameworks": [
+        {"id": 2, "nombre": "bootstrap", "img": "bootstrap-icon"},
+        {"id": 2, "nombre": "react", "img": "react-icon"},
+        {"id": 2, "nombre": "tailwind", "img": "tailwind-icon"}
+    ],
+    "backend": [
+        {"id": 3,"nombre": "mysql", "img": "mysql-icon"},
+        {"id": 3,"nombre": "mongoDB", "img": "mongo-icon"},
+        {"id": 3,"nombre": "php", "img": "php-icon"}
+    ],
+    "extra": [
+        {"id": 4, "nombre": "netlify", "img": "netlify-icon"},
+        {"id": 4, "nombre": "github", "img": "github-icon"},
+        {"id": 4, "nombre": "node", "img": "node-icon"},
+        {"id": 4, "nombre": "npm", "img": "npm-icon"}
+    ],
+    "porAdquirir": [
+        {"nombre": "electron", "img": "electron-icon"},
+        {"nombre": "angular", "img": "angular-icon"},
+        {"nombre": "react", "img": "react-icon"}
+    ]
+}

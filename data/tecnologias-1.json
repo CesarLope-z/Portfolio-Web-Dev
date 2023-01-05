@@ -1,0 +1,12 @@
+{ 
+    "tecnologias": [
+        { "nombre": "html", "valor": 80},
+        { "nombre": "css", "valor": 85},
+        { "nombre": "python", "valor": 60},
+        { "nombre": "js", "valor": 75},
+        { "nombre": "react", "valor": 70},
+        { "nombre": "sass", "valor": 40},
+        { "nombre": "php", "valor": 45},
+        { "nombre": "mysql", "valor": 55}
+    ]
+}

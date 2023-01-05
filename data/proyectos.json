@@ -1,0 +1,39 @@
+{
+    "proyecto1": {
+        "img": "jarvisWeb",
+        "nombre": "Jarvis Web",
+        "descripcion": "The accessibility and autonomy of being able to list reminders, maintain finances with a virtual wallet and save notes.",
+        "href": "proyecto1"
+    },
+    "proyecto2": {
+        "img": "miRecibo",
+        "nombre": "My receipt",
+        "descripcion": "The convenience of searching and create a list of materials that you need, to show your receipt with information and prices.",
+        "href": "proyecto2"
+    },
+    "proyecto3": {
+        "img": "misTareas",
+        "nombre": "To do list",
+        "descripcion": "The easiest way to list and schedule tasks about, Work, University, College.",
+        "href": "proyecto3"
+    },
+    
+    "proyecto4": {
+        "img": "jarvisPy",
+        "nombre": "Jarvis",
+        "descripcion": "The easy way to open files locations and pages autonomously through Voice.",
+        "href": "proyecto4"
+    },
+    "proyecto5": {
+        "img": "blogCafe",
+        "nombre": "Sale and Coffee Courses",
+        "descripcion": "Design and structure of a web page on coffee trade.",
+        "href": "proyecto5"
+    },
+    "proyecto6": {
+        "img": "proyecto61",
+        "nombre": "Our Website",
+        "descripcion": "Talk to me and let's do a project together.",
+        "href": "proyecto6"
+    }
+}

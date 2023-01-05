@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/boots.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+    
+  <header class="header1 bg-bluee">
+    <div>
+
+      <div class="iconH">
+        <svg id="icon-move" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-box" width="190" height="190" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <polyline points="12 3 20 7.5 20 16.5 12 21 4 16.5 4 7.5 12 3" />
+          <line x1="12" y1="12" x2="20" y2="7.5" />
+          <line x1="12" y1="12" x2="12" y2="21" />
+          <line x1="12" y1="12" x2="4" y2="7.5" />
+        </svg>
+      </div>
+
+      <div id="text-appear" class="titHeader">
+        <h1>César López</h1>
+        <p>Web Developer</p>
+      </div>
+      <div id="text-appear2" class="text-appear2 d-md-flex">
+        <div>
+          <p class="text1">¿?</p>
+          <p class="text2">Experience</p>
+        </div>
+        
+        <div>
+          <p class="text1">+10</p>
+          <p class="text2">Pages</p>
+        </div>
+        
+        <div>
+          <p class="text1">+80 Hours</p>
+          <p class="text2">Learning</p>
+        </div>
+      </div>
+
+    </div>
+    <a href="#habis">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon arrow bg-white rounded-full  icon-tabler m-auto icon-tabler-arrow-bottom-circle" width='55' height='55' viewBox="0 0 24 24" strokeWidth="1.5" stroke="#4f46e5" fill="none" strokeLinecap="round" strokeLinejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+        <path d="M12 7v14" />
+        <path d="M9 18l3 3l3 -3" />
+        <circle cx='12' cy='5' r='2' />
+      </svg>
+    </a>
+
+  </header>
+
+    <div class="container wv m-b5">
+
+      <div id="habis" class="habilidades p-4 pt-9">
+
+        <div class="titulo m-9 text-center">
+          <p class="fs-1">Habilidades</p>
+          <div class="line"></div>
+        </div>
+
+        <div>
+          
+          <div class="iconos d-sm-flex justify-content-around text-center m-15">
+
+            <div class="icono">
+              <lord-icon
+                  src="https://cdn.lordicon.com/zpxybbhl.json"
+                  trigger="loop"
+                  colors="primary:#000000,secondary:#a8dadc"
+                  style="width:70px;height:70px">
+              </lord-icon>
+              <p class="fs-3">Interactive</p>
+              <p>Seek the best interaction with the user</p>
+            </div>
+
+            <div class="icono">
+              <lord-icon
+                  src="https://cdn.lordicon.com/qhgmphtg.json"
+                  trigger="loop"
+                  colors="primary:#000000,secondary:#a8dadc"
+                  style="width:70px;height:70px">
+              </lord-icon>
+              <p class="fs-3">Responsive</p>
+              <p>The pages are adaptables to different devices </p>
+            </div>
+
+          </div>
+          <div id="barras" class="barra m-15">
+            
+          </div>
+          <div>
+
+            <div class="verMas text-end">
+              <div>
+                <a href="habilidades.html" class="verMasA p-2">View more...</a>
+              </div>
+            </div>
+            
+          </div>
+
+        </div>
+
+      </div>
+      <div id="proyectos" class="proyectos p-3 pt-9">
+
+        <div class="titulo m-9 text-center">
+          <p class="fs-1 mb-5">Proyects</p>
+          <div class="line"></div>
+        </div>
+
+        <div id="otros" class="proyects m-35"></div>
+
+      </div>
+      
+    </div>
+
+    <div class="contacto" id="contacto">
+
+      <div class="titulo text-center">
+        <p class="fs-1 mb-5">Contact me</p>
+        <div class="line"></div>
+      </div>
+
+      <div class="text-center">
+        <p>Would you like to talk to me?</p>
+        <form id="formulario" class="container text-center">
+          <div>
+            <input class="input w-50 p-2 mb-2" id="nombre" type="text" placeholder="Name">
+          </div>
+          <div>
+            <input class=" input w-50 p-2 mb-2" id="email" type="email" placeholder="E-mail">
+          </div>
+          <div>
+            <textarea class="input w-50 p-2 mb-2 h-70" placeholder="Mensaje" id="mensaje" cols="30" rows="10"></textarea>
+          </div>
+          <div>
+            <input type="submit" class="input p-2">
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <footer class="footer bg-azulOscuro p-5" >
+      <div class="d-md-flex justify-content-between alignItemCenter ">
+        <div class="d-grid d-sm-flex justify-content-center">
+
+          <a class="icon-footer" target="_blank" href="https://www.facebook.com/cesar.lopez.98031506">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+            </svg>
+          </a>
+
+          <a class="icon-footer" target="_blank" href="https://github.com/CesarLope-z">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+            </svg>
+          </a>
+        
+
+        <a class="icon-footer" target="_blank" href="https://instagram.com/csar.lop3079?igshid=YmMyMTA2M2Y=">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <rect x="4" y="4" width="16" height="16" rx="4" />
+            <circle cx="12" cy="12" r="3" />
+            <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+          </svg>
+        </a>
+        
+      </div>
+        <div class="d-grid justify-content-center">
+          <a href="mailto: cesarlopezdev@gmail.com" class="email text-fot text-center">cesarlopezdev@gmail.com</a >
+          <a href="tel:75469957" class="email text-fot text-center">7546-9957</a>
+          <p class="text-fot text-center">All rights reserved &copy; </p>
+        </div>
+      </div>
+      
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
+<!-- iconos
+github
+<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+instagram
+<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <rect x="4" y="4" width="16" height="16" rx="4" />
+  <circle cx="12" cy="12" r="3" />
+  <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+</svg>
+
+
+facebook
+<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+</svg>
+
+iconos -->
