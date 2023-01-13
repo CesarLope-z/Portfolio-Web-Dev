@@ -73,7 +73,7 @@ function mostrarProyectos({proyecto1, proyecto2, proyecto3, proyecto4, proyecto5
     crearCarta(proyecto3)
     crearCarta(proyecto4)
     crearCarta(proyecto5)
-    crearCarta(proyecto6)
+    crearCarta(proyecto6) 
 }
 function crearCarta({img, nombre, descripcion, href}) {
     let carta = document.createElement('div')
@@ -83,7 +83,7 @@ function crearCarta({img, nombre, descripcion, href}) {
         <div class="card-body">
             <h5 class="card-title">${nombre}</h5>
             <p class="card-text">${descripcion}</p>
-            <a href="src/${href}.html" class="btn btn-primary">Leer Mas...</a>
+            <a href="src/${href}.html" class="btn btn-primary">Read more...</a>
         </div>
     `;
     proyects.appendChild(carta)
