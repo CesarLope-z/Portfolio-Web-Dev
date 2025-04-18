@@ -266,8 +266,9 @@ a:hover{
     grid-template-columns: 2fr 1fr;
 }
 .colorProyecto1{
-    background-image: url(../img/fondos/fondoProyecto1.PNG);
-    color: transparent;
+color: coral;
+    /* background-image: url(../img/fondos/fondoProyecto1.PNG); */
+    /* color: transparent; */
 
     background-clip: text;
     -webkit-background-clip: text;
